@@ -1,0 +1,31 @@
+2027q2 - NLP course plan (adapted from 2026q2, original material by T. Brochhagen)
+
+W1  Intro + Handling text (Ex 1 handed out)
+    reuse: 2026q2/session01 (notebook0101, session0102 spaCy, trump.py, spacy-pipeline.svg)
+           2026q2/session02/handling-text-exercises.ipynb
+W2  Tokenization
+    reuse: 2026q2/session02 (session0202-spaCyIntro, notebook0201-regex, s02a01.py)
+    new:   dedicated tokenization lecture (BPE etc.)
+W3  Language models (architecture): ngrams, RNN, attention + embeddings
+    reuse: 2026q2/session03 (notebook0301-labeling, hmm.pdf) - ngrams/HMM side
+           2026q2/session04 (notebook0401-transformers, notebook0402-embeddings)
+    new:   RNN and attention lectures
+W4  Neural networks
+    reuse: 2026q2/session05 (neural linear regression.ipynb, nn-overview.pdf)
+W5  Character-level language model
+    reuse: 2026q2/session06 (session06-01-char-level-lms.ipynb, bengioetal.png)
+W6  Annotation and data (Exam = Ex 2)
+    reuse: 2026q2/session07 (notebook0701-hil, human-in-the-loop slides)
+    new:   exam format
+W7  GPT from scratch #1 (Ex 3 handed out)
+    base:  2026q2/session04 (transformers)
+    new:   GPT-from-scratch notebooks
+W8  GPT from scratch #2
+    new
+W9  Recap
+    new
+
+Exercises (templates reusable from 2026q2):
+    Ex 1: session03/ex1.md (Zipf's law of abbreviation)
+    Ex 2: session06/ex2.md / session08/ex2.md (char-based LMs / polysemy)
+    Ex 3: session09/ex3.md (open project)
